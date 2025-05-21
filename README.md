@@ -1,4 +1,17 @@
-# draw_composition_plot() Function Documentation
-The 'draw_composition_plot()' function visualizes 3-part compositional data in a 2D projected ternary-style plot using ggplot2. It supports optional boundary display and colored predictions (e.g., heart rate or other response values).
+# 🎯 focused-ternary-plot
 
-This function is useful for plotting compositions such as activity distributions (e.g., sleep/exercise/other), dietary ratios, or any other data with three parts summing to one.
+A flexible and focused ternary plot function for compositional data visualization in R.
+
+Unlike traditional ternary plotting tools like [`ggtern`](https://github.com/hdrake/ggtern), which always show the full triangle, this function adapts the plot area to match **the actual data region**. It is especially useful when your compositions are concentrated in a small area of the triangle.
+
+---
+
+## ✨ Features
+
+- ✅ Works with any 3-part compositional data (e.g., sleep/exercise/other, macronutrients, soil types)
+- ✅ Automatically adapts the triangle to your data's support
+- ✅ Optional red boundary lines show the exact area where data exists
+- ✅ Color mapping for predicted or measured values
+- ✅ Fully `ggplot2`-based — no need for external packages like `ggtern`
+
+

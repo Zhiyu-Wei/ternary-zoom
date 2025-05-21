@@ -1,4 +1,4 @@
-# 🎯 focused-ternary-plot
+# focused-ternary-plot
 
 A flexible and focused ternary plot function for compositional data visualization in R.
 
@@ -16,7 +16,7 @@ Unlike traditional ternary plotting tools like [`ggtern`](https://github.com/hdr
 
 ---
 
-🧭 Why not use ggtern?
+Why not use ggtern?
 The ggtern package is great, but it has one major limitation:
 
 It always displays the entire triangle, even when your data occupies only a small region.
@@ -45,7 +45,4 @@ Saving space in reports or dashboards
 📜 License  
 
 MIT License. Feel free to use, modify, and share.
-
-
-
 

@@ -42,7 +42,8 @@ Saving space in reports or dashboards
 
 
 
-📜 License
+📜 License  
+
 MIT License. Feel free to use, modify, and share.
 
 

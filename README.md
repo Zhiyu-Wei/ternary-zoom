@@ -14,4 +14,36 @@ Unlike traditional ternary plotting tools like [`ggtern`](https://github.com/hdr
 - ✅ Color mapping for predicted or measured values
 - ✅ Fully `ggplot2`-based — no need for external packages like `ggtern`
 
+---
+
+🧭 Why not use ggtern?
+The ggtern package is great, but it has one major limitation:
+
+It always displays the entire triangle, even when your data occupies only a small region.
+
+This function solves that by:
+
+Zooming into the actual data region
+
+Making patterns and clusters easier to see
+
+Saving space in reports or dashboards
+
+
+🔧 Arguments
+
+draw_composition_plot(
+  data,             # 3-column composition data.frame or matrix
+  pred,             # numeric response vector
+  lab.title = "",   # plot title
+  show_boundary = FALSE,     # whether to draw data boundaries
+  scale_color = c("yellow", "blue")  # gradient for response values
+)
+
+
+📜 License
+MIT License. Feel free to use, modify, and share.
+
+
+
 

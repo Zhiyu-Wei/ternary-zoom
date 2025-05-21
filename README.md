@@ -32,13 +32,14 @@ Saving space in reports or dashboards
 
 🔧 Arguments
 
-draw_composition_plot(
-  data,             # 3-column composition data.frame or matrix
-  pred,             # numeric response vector
-  lab.title = "",   # plot title
-  show_boundary = FALSE,     # whether to draw data boundaries
-  scale_color = c("yellow", "blue")  # gradient for response values
-)
+| Argument        | Type                            | Description                                                                                                         |
+| --------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `data`          | `data.frame` or `matrix`        | A 3-column composition dataset. Each row should sum to 1 (or nearly 1).                                             |
+| `pred`          | `numeric vector`                | A response variable to be mapped as color (e.g., prediction, measurement). Must match the number of rows in `data`. |
+| `lab.title`     | `character`                     | The title shown on the plot.                                                                                        |
+| `show_boundary` | `logical`                       | Whether to draw the red boundary lines that reflect the data range. Default is `FALSE`.                             |
+| `scale_color`   | `character vector (length = 2)` | Two colors for gradient scale (low to high). Default is `c("yellow", "blue")`.                                      |
+
 
 
 📜 License

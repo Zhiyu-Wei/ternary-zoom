@@ -209,7 +209,7 @@ ggtern(data = df, aes(x = Sleep, y =Others, z =Exercise )) +
                        name = "Heart Rate")
 ```
 
-![](Zoom-Ternary_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](unnamed-chunk-3-1.png)<!-- -->
 
 ``` r
 detach("package:ggtern", unload = TRUE)
@@ -226,4 +226,4 @@ draw_composition_plot(data2,obj,lab.title = "Zoom Ternary",
                       show_boundary = TRUE,scale_color = c("green", "red"))
 ```
 
-![](Zoom-Ternary_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](unnamed-chunk-4-1.png)<!-- -->
